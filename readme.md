@@ -12,20 +12,18 @@ Este es un proyecto que ya puedes descargar y iniciar el tuyo sin necesidad de h
 
 ## PASOS PARA IMPLEMENTAR
 
-Primero descarga el proyecto, despues tomamos el archivo login.sql que es la base de datos y lo importamos en nuestra base de datos, para ellos debmos seguir los siguientes pasos:
+## PASOS PARA IMPLEMENTAR
 
-- Abrimos nuestra base de datos, si usas MYSQL y xampp debes tener instalado PHPMYADMIN, la ruta habitual es http://localhost/phpmyadmin.
-- Creamos la tabla login.
-- Vamos a la parte de importar, seleccionamos el archivo login.sql y damos continuar.
-
-Despues de tener el proyecto en la carpeta htdocs o www, segun la aplicacion que uses
-xampp o wampp. Debemos abrir la consola y ejecutamos lo siguiente:
+1. Primero descarga el proyecto.
+2. Creamos en nuestra base de datos llamada login
+3. Despues de tener el proyecto en la carpeta htdocs o www, segun la aplicacion que uses
+xampp o wampp. Debemos abrir la consola, posteriormente ir a la ubicacion de la ruta del proyecto y ejecutamos lo siguiente:
 
 ```
 php artisan key:generate
 ```
 
-Seguido por el siguiente comando:
+4. Seguido por el siguiente comando:
 
 ```
 php artisan migrate:fresh
@@ -36,3 +34,4 @@ Por ultimo solo es abrir el proyecto en el navedador y usarlo.
 ## License
 
 Libre.
+
