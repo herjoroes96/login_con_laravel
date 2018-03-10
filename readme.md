@@ -12,8 +12,6 @@ Este es un proyecto que ya puedes descargar y iniciar el tuyo sin necesidad de h
 
 ## PASOS PARA IMPLEMENTAR
 
-## PASOS PARA IMPLEMENTAR
-
 1. Primero descarga el proyecto.
 2. Creamos en nuestra base de datos llamada login
 3. Despues de tener el proyecto en la carpeta htdocs o www, segun la aplicacion que uses
